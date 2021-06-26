@@ -15,7 +15,6 @@ finally:
 
 
 print('\nРабота с файлами:\n')
-
 print('Task #2.1')
 FILENAME = 'L6 - Task_2.txt'
 #body = '''Владей собой среди толпы смятенной,
@@ -31,11 +30,13 @@ with open(FILENAME, 'r') as file:
         print(line, end='')
         sp.append(line)
 
+
 print('''\n
 Task #2.2
 Считайте весь файл text.txt в список строк, выведите только 
 1-ю и последнюю строки:''')
 print(sp[0], sp[len(sp)-1])
+
 
 print('''\n
 Task #2.3
